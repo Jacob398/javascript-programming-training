@@ -40,6 +40,8 @@ console.log(interestRate);
 console.log(firstName);
 console.log(typeof firstName)
 //let name = firstName + lastName
+
+
 let person = {
     name: 'Jacob',
     age: 30
@@ -65,10 +67,13 @@ function greet(name, lastName) {
 
 //function that calculates a value
 function square(number){
-    return number * number
+    return number * number;
 }
 
 let number = square(2);
+
+console.log(square(2));
+
 console.log(number)
 
 greet('John', 'Smith');
@@ -76,11 +81,35 @@ greet('Mary', 'Jane');
 
 console.log(typeof interestRate)
 
+
+
 //learn the difference between parameter and argument
 //A parameter is the input at the time of declaration, and the argument is the actual value with supply for parameter
 //So in this case, the parameter would be "name" in 'function greet(name)' and the argument would be John
 //Seperate arguments using a comma ","
+console.log(person)
 
+//~~object oriented programming lesson~~
+//!!encapsulation!!
+//setting up a basic function, also know as procedure code
+let baseSalary = 30_000;
+let overtime = 10;
+let rate = 20;
 
+function getWage(baseSalary, overtime, rate){//the issue with procedure code, you end up getting a lot of parameters such as "baseSalary, overtime, and rate"
+    return baseSalary + (overtime * rate);
+}
+//this is the object Oriented format below. It is the same as above, but way better
+let employee = {// there are no parameters. "The best functions are those with no parameters"
+    baseSalary: 30_000,
+    overtime: 10,
+    rate: 20,
+    getWage: function(){
+        return this.baseSalary + (this.overtime * this.rate);
+    }
+};
+employee.getWage()
+
+//!!Abstraction!!
 
 

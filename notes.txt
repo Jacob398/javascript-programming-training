@@ -1,0 +1,53 @@
+~~Object-oriented programming~~
+in object-oriented programming we combine a group of related 
+variables and functions into a unit. We call that unit an object we refer to these variables as properties and the functions methods
+ Keyword!! abstraction
+ abstraction creates simpler interface
+abstaction reduces the impacts of change
+!!Keyword!! Inheritance
+Inheritance helps other object inherit these properties and methods so Inheritance helps us eliminate redundant code
+Keyword!! Polymorphism or "many forms"
+
+
+
+
+
+
+
+
+ChatGPT help with what I should do to learn programming
+Yes, there is a recommended path and order to learn programming, especially for beginners. Following a structured approach can help you build a 
+solid foundation and progress effectively. Here's a suggested path:
+
+1. **Start with the basics of programming logic**: Before diving into a specific programming language, it's essential to understand fundamental
+ programming concepts like variables, data types, control structures (loops and conditionals), functions, and algorithms. This knowledge will be 
+ applicable across different languages.
+
+2. **Choose a beginner-friendly programming language**: Select a beginner-friendly language like Python, which has a clean and readable syntax. 
+Python is widely used in various domains, including web development, data analysis, and artificial intelligence.
+
+3. **Learn the syntax and core concepts**: Familiarize yourself with the syntax and core concepts of your chosen language. Understand how to write 
+and execute simple programs, work with variables, perform operations, and use control structures. Online tutorials and courses are great resources 
+for learning these basics.
+
+4. **Expand your knowledge**: Once you grasp the basics, dive deeper into more advanced topics such as functions, arrays, strings, file I/O, and 
+object-oriented programming (OOP). Understand how to break down complex problems into smaller, manageable parts.
+
+5. **Practice problem-solving**: Programming is all about problem-solving. Solve coding challenges and exercises to sharpen your logical thinking 
+and programming skills. Online platforms like HackerRank, LeetCode, and CodeWars offer a wide range of coding problems to practice.
+
+6. **Learn about data structures and algorithms**: Study fundamental data structures like arrays, linked lists, stacks, queues, trees, and graphs. 
+Understand algorithms such as sorting, searching, and recursion. This knowledge is crucial for writing efficient and optimized code.
+
+7. **Build projects**: Apply your knowledge by working on small projects. Projects help you reinforce what you've learned and provide practical 
+experience. Start with simple projects, like building a calculator or a to-do list, and gradually tackle more complex projects.
+
+8. **Explore specialized areas**: Once you have a good grasp of the fundamentals, explore specialized areas based on your interests and career 
+goals. This could include web development (HTML, CSS, JavaScript), mobile app development (Java, Swift), data science (Python, R), or machine 
+learning (Python, TensorFlow).
+
+9. **Continue learning and staying updated**: Programming is a constantly evolving field. Stay updated with the latest trends, technologies, and 
+best practices. Follow programming blogs, read documentation, and explore new tools and frameworks.
+
+Remember, learning programming is an ongoing journey, and continuous practice and exposure to real-world projects will help you solidify your 
+skills.
