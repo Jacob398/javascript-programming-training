@@ -7,6 +7,11 @@ abstaction reduces the impacts of change
 !!Keyword!! Inheritance
 Inheritance helps other object inherit these properties and methods so Inheritance helps us eliminate redundant code
 Keyword!! Polymorphism or "many forms"
+benefits of OOP 
+using encapsulation we can reduce complexity and increase reusability
+using Abstraction we can reduce complexity and isolates impacts of change
+using Inheritance eliminate redundant code 
+using Polymorphism we can refactor ugly switch/case statements
 
 
 

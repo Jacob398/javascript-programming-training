@@ -110,6 +110,27 @@ let employee = {// there are no parameters. "The best functions are those with n
 };
 employee.getWage()
 
-//!!Abstraction!!
+//I am going to go off on a tangent and do a little bit of code I learned from chatGpt
+//I'm going to be doing a switch/case... thing... I'm not sure if it's a function or not, but it's something
+let fruit = "apple";
 
+switch (fruit){
+    case "banana":
+        console.log("I am a banana.");
+        break;
+    case "apfel":
+        console.log("I am an apple");
+        break;
+        default:
+            console.log("Ich bin nicht weder eine banane noch ein apfel")
+//in this example, the cases did not pass therefore the default message was what was logged to the console.
+};
+// the previous code and this next one was copied from chatGpt to help me learn and understand a bit more of Switch/Cases
 
+let day = new Data().getDay();
+
+switch (day){
+    case 0:
+        console.log("Sunday");
+
+}
