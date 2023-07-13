@@ -6,12 +6,12 @@
 //console.log(name);
 
 //variable rules
-// cannot be a reserved keyword
+//cannot be a reserved keyword
 //should be meaningful
 //cannot start with a number (1name)
 //cannot contain a space or hyphen(-)
 //are case-sensitive
-// dynamic and static languages are different. Dynamic languages like javascript, a type of a variable can change at runtime.
+//dynamic and static languages are different. Dynamic languages like javascript, a type of a variable can change at runtime.
 
 let firstName = 'Jacob '; //string literal
 let lastName = 'Brown';
@@ -127,10 +127,78 @@ switch (fruit){
 };
 // the previous code and this next one was copied from chatGpt to help me learn and understand a bit more of Switch/Cases
 
-let day = new Data().getDay();
+// let day = new Date().getDay();
+
+// switch (day){
+//     case 0:
+//         console.log("Sunday");
+//         break;
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+// }
+
+
+//ctrl + / after highlighting will comment out large sections of code
+
+let day = new Date().getDay();
+let dayName;
 
 switch (day){
     case 0:
-        console.log("Sunday");
-
+        dayName = "Sunday";
+        break;
+    case 1:
+        dayName = "Monday";
+        break;
+    case 2:
+        dayName = "Tuesday";
+        break;
+    case 3:
+        dayName = "Wednesday";
+        break;
+    case 4:
+        dayName = "Thursday";
+        break;
+    case 5:
+        dayName = "Friday";
+        break;
+    case 6:
+        dayName = "Saturday";
+        break;
 }
+
+document.getElementById('dayOfWeek').textContent = dayName;
+
+//let's try using the knowledge that I know to make another code that rest of code such as date and time
+
+
+
+function updateTime() {
+    let now = new Date();
+    let hours = now.getHours();
+    let minutes = ("0" + now.getMinutes()).slice(-2);
+    let seconds = ("0" + now.getSeconds()).slice(-2); //These add a leading zero if needed
+
+    let time = hours + ":" + minutes + ":" + seconds
+    document.getElementById('localTimeDisplay').textContent = time;
+}
+// Call updateTime immediately to set the initial time
+updateTime();
+// Then call updateTime every 1000 milliseconds (1 second)
+setInterval(updateTime, 1000);

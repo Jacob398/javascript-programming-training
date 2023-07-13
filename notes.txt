@@ -1,8 +1,8 @@
 ~~Object-oriented programming~~
 in object-oriented programming we combine a group of related 
 variables and functions into a unit. We call that unit an object we refer to these variables as properties and the functions methods
- Keyword!! abstraction
- abstraction creates simpler interface
+Keyword!! abstraction
+abstraction creates simpler interface
 abstaction reduces the impacts of change
 !!Keyword!! Inheritance
 Inheritance helps other object inherit these properties and methods so Inheritance helps us eliminate redundant code
@@ -56,3 +56,21 @@ best practices. Follow programming blogs, read documentation, and explore new to
 
 Remember, learning programming is an ongoing journey, and continuous practice and exposure to real-world projects will help you solidify your 
 skills.
+
+Some knowledge for html from chatGpt
+In HTML, `h1` through `h6` elements represent section headings. `h1` is the highest level and indicates the most important heading on the page, 
+while `h6` is the lowest level and indicates the least important.
+
+The differences between `h1` and `h2` (and the other heading levels) are as follows:
+
+1. **Importance**: As mentioned, `h1` is considered the most important and `h6` the least. So, in terms of importance, `h1` > `h2` > `h3` > `h4` > 
+`h5` > `h6`. Typically, there should only be one `h1` element on a page, representing the main heading or title of the page content.
+
+2. **Font size**: By default, browsers display `h1` in the largest font size, and `h6` in the smallest. Each level from `h1` to `h6` is smaller 
+than the previous. However, the actual size can vary between different browsers and can be overridden with CSS.
+
+3. **SEO (Search Engine Optimization)**: `h1` tags are also significant for SEO. Search engines use the text inside `h1` tags to understand what a 
+page is about and index it accordingly. While `h2` through `h6` can also contribute to SEO, they're typically given less weight than `h1`.
+
+In summary, you should use `h1` for the main title of a page or section, and use `h2` through `h6` for subheadings in decreasing order of 
+importance. And remember, it's good practice to only have one `h1` element per page.

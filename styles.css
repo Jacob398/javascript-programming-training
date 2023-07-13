@@ -1,0 +1,26 @@
+#dayOfWeek{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }  
+  #localTimeDisplay{
+    position: fixed;
+    top: 10;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #main-heading {
+    text-align: center;
+  }
+  #main-button {
+    text-align: center;
+    color: red;
+  }
+body {
+    background: linear-gradient(to right, rgb(68, 68, 75), rgb(95, 27, 27));
+}
