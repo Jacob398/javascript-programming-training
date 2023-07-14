@@ -214,3 +214,7 @@ function updateDate(){
 }
 updateDate();
 setInterval(updateDate, 1000 * 60);
+
+document.getElementById('mainButton').onclick = ()=>{
+    window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0")
+}

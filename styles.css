@@ -1,25 +1,18 @@
-#dayOfWeek{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0px;
-}
-#localDateDisplay{
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px;
-} 
-#localTimeDisplay{
-  padding: 0px;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px;
-}
 #main-heading {
   text-align: center;
 }
-#main-button {
-  text-align: center;
-  color: red;
+#mainButton {
+  height: 40px;
+  width: 200px;
+  color: rgb(79, 33, 136);
+  background: linear-gradient(to right,#ebd197, #b48811, #a2790d, #bb9b49);
+  font-size: xx-large;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 #dateTimeContainer{
   position: fixed;
@@ -30,4 +23,10 @@
 }
 body {
   background: linear-gradient(to right, rgb(68, 68, 75), rgb(95, 27, 27));
+}
+
+.dateTime{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
 }

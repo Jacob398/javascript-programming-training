@@ -13,9 +13,12 @@ using Abstraction we can reduce complexity and isolates impacts of change
 using Inheritance eliminate redundant code 
 using Polymorphism we can refactor ugly switch/case statements
 
+In css the # before a name is an ID
+if theres no prefix(#) it's an element
 
-
-
+"." is the class identification IE .hello would be a class called "hello"
+many things can have the same class, but only one thing can have an ID
+~~everythings a div~~
 
 
 
