@@ -14,7 +14,7 @@
 
 === start segment1 ===
 "Hello World"... Ironically I wrote most of this program before I even wrote those two words. I feel like I should give a 
-little bit of a description for what I want this page to be. The reason this "website" if you want to call it that exists is because this will
+little bit of a description for what I want this page to be. The reason this "website" if you want to call it that, exists is because this will
 be where I practice everything I learn. So if you actually look at the code to this website, it doesn't make a whole lot of sense. Go ahead, 
 press f12 key and click the console tab. Don't worry it won't screw up your computer to take a look. Most likely the Elements tab will be what 
 is on screen. If you navigate to the console tab and click it, you should be able to see all the the logs to the console I have performed in 

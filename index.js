@@ -231,6 +231,7 @@ document.getElementById('mainButton').onclick = ()=>{
 //I could have used this code above, but I wanted to make it where I only used one txt file and pulled multiple txt's from it. As of right now
 //that fetches the entire file, and I just want it to fetch parts...'
 
+//need to talk to matt about below code
 fetch('myTextFile.txt')
 .then(response => response.text())
 .then(data => {
@@ -254,3 +255,9 @@ fetch('myTextFile.txt')
 .catch(error =>{
     console.error('Error:', error);
 });
+
+
+//making input java code
+const nameInput = document.getElementById('name');
+const nameValue = nameInput.value;
+console.log(nameValue);
