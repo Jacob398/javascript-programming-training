@@ -202,3 +202,15 @@ function updateTime() {
 updateTime();
 // Then call updateTime every 1000 milliseconds (1 second)
 setInterval(updateTime, 1000);
+
+function updateDate(){
+    let now = new Date();
+    let day = now.getDate();
+    let month = now.getMonth();
+    let year = now.getFullYear();
+
+    let date = day + "/" + month + "/" + year
+    document.getElementById('localDateDisplay').textContent = date;
+}
+updateDate();
+setInterval(updateDate, 1000 * 60);

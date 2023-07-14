@@ -1,26 +1,33 @@
 #dayOfWeek{
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px;
     font-size: 20px;
     font-weight: bold;
-  }  
-  #localTimeDisplay{
-    position: fixed;
-    top: 10;
-    right: 0;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  #main-heading {
-    text-align: center;
-  }
-  #main-button {
-    text-align: center;
-    color: red;
-  }
+    margin: 0px;
+}
+#localDateDisplay{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+} 
+#localTimeDisplay{
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+#main-heading {
+  text-align: center;
+}
+#main-button {
+  text-align: center;
+  color: red;
+}
+#dateTimeContainer{
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 20px; 
+  margin-top: 20px;
+}
 body {
-    background: linear-gradient(to right, rgb(68, 68, 75), rgb(95, 27, 27));
+  background: linear-gradient(to right, rgb(68, 68, 75), rgb(95, 27, 27));
 }
