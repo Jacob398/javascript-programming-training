@@ -218,3 +218,39 @@ setInterval(updateDate, 1000 * 60);
 document.getElementById('mainButton').onclick = ()=>{
     window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0")
 }
+
+// fetch('myTextFile.txt')
+// .then(response => response.text())
+// .then(data => {
+//     document.getElementById('myText').textContent = data;
+// })
+// .catch(error =>{
+//     console.error('Error', error);
+// });
+
+//I could have used this code above, but I wanted to make it where I only used one txt file and pulled multiple txt's from it. As of right now
+//that fetches the entire file, and I just want it to fetch parts...'
+
+fetch('myTextFile.txt')
+.then(response => response.text())
+.then(data => {
+    //for segment 1
+    const segment1Start = data.indexOf('=== start segment1 ===') + '=== start segment1 ==='.length;
+    const segment1End = data.indexOf('=== end segment1 ===');
+    const segment1Text = data.slice(segment1Start, segment1End).trim();
+
+
+    document.getElementById('myText1').textContent = segment1Text;
+
+    //for segement 2
+    const segment2Start = data.indexOf('=== start segment2 ===') + '=== start segment2 ==='.length;
+    const segment2End = data.indexOf('=== end segment2 ===');
+    const segment2Text = data.slice(segment2Start, segment2End).trim();
+
+    document.getElementById('myText2').textContent = segment2Text
+
+
+})
+.catch(error =>{
+    console.error('Error:', error);
+});
