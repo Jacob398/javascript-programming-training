@@ -13,16 +13,14 @@
 
 
 === start segment1 ===
-"Hello World"... Ironically I wrote most of this program before I even wrote those two words. I feel like I should give a 
-little bit of a description for what I want this page to be. The reason this "website" if you want to call it that, exists is because this will
-be where I practice everything I learn. So if you actually look at the code to this website, it doesn't make a whole lot of sense. Go ahead, 
-press f12 key and click the console tab. Don't worry it won't screw up your computer to take a look. Most likely the Elements tab will be what 
-is on screen. If you navigate to the console tab and click it, you should be able to see all the the logs to the console I have performed in 
-Javascript. If you want to exit that, then just press f12 once again. A lot of these logs seem to have no connection to the actual website, 
-and that is because they don't have any connection. These logs are just random things that I ued to help me learn more of javascript. Hopefully
-down the road, I might have a lot more meaningful logs, but until then, this is all there is.
+This Is going to be the intro to Rysael. Mainly the intro description.
 === end segment1 ===
 
 === start segment2 ===
 This is the text for segment 2.
 === end segment2 ===
+
+
+
+
+this is rokes segment

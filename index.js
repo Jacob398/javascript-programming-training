@@ -261,3 +261,40 @@ fetch('myTextFile.txt')
 const nameInput = document.getElementById('name');
 const nameValue = nameInput.value;
 console.log(nameValue);
+
+// const circle = {
+//     radius: 1,   //this is a property
+//     location: {  // so is this
+//         x: 1,
+//         y: 1
+//     },
+//     draw: function(){    //draw is a method
+//         console.log('draw');
+//     }
+    
+//};
+//instead we can
+
+//factory function
+function createCircle(radius){
+    return {
+        radius,
+        draw: function(){
+            console.log('draw');
+        }
+    };
+}
+
+const circle = createCircle(1);
+
+// in oop porperties are used to hold values, and a method or function is used to define logic
+//circle.draw(); or
+//we make a constructor function
+function Circle(radius){
+    console.log('this', this);
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+const another = new Circle(1); 
